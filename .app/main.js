@@ -1,5 +1,5 @@
 import VendrController from "./controllers/VendrController.js";
-console.log("Hello from main js");
+console.log("Hello from Main js");
 
 
 class App {
