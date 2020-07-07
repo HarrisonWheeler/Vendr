@@ -17,5 +17,12 @@ export default class VendrController {
     console.log(_vendrService.Target);
     _draw()
   }
+
+  purchaseFruit() {
+    _vendrService.purchaseFruit()
+
+    _draw()
+  }
+
 }
 
