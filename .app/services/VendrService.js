@@ -9,7 +9,7 @@ export default class VendrService {
   }
 
   get Target() {
-    return _target.money
+    return _target
   }
   money() {
     _target.money += .25

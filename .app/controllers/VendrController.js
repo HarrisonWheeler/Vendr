@@ -4,7 +4,7 @@ import VendrService from "../services/VendrService.js";
 let _vendrService = new VendrService()
 
 function _draw() {
-  document.getElementById("money-available").innerHTML = _vendrService.Target
+  document.getElementById("target").innerHTML = _vendrService.Target.Template
 }
 
 export default class VendrController {
@@ -14,7 +14,7 @@ export default class VendrController {
   }
   money() {
     _vendrService.money()
-    console.log(_vendrService.Target);
+    console.log(_vendrService.Target.money);
     _draw()
   }
 
